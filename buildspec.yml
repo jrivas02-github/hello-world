@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "starting the install phase now"
+  build:
+    commands:
+      - echo "hello from the build phase"
+artifacts:
+  files:
+    - '**/*'
